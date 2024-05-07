@@ -1,0 +1,58 @@
+:root {
+    --snake-color: red;
+    --food-color: blue;
+    --score-board-color: #232946;
+    --game-board-color: #e799e7;
+    --main-bg-color: #d4939d;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: var(--main-bg-color);
+}
+
+.main-board {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.score-board {
+    background-color: var(--score-board-color);
+    width: 100%;
+    height: fit-content;
+    padding: 3rem;
+}
+
+.game-body {
+    background-color: var(--game-board-color);
+    width: 100%;
+    height: 100%;
+    display: grid;
+}
+
+/*Adjust grid item color*/
+/*created using JS*/
+.game-body .grid-item {
+    width: 100%;
+    height: 100%;
+}
+
