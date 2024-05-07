@@ -3,6 +3,8 @@ Remake of the classic Snake game using HTML, CSS, and JavaScript.
 
 <img src="images/Snake_website_ss.png" alt="snake_website_ss" width="500">
 
+# Please try it by click <a href"https://nissubba1.github.io/Snake_Game/">HERE</a>
+
 ## Features
 
 - Score Tracking: Keeps track of your score throughout the game, updating in real-time as you eat food.
